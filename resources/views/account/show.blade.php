@@ -24,7 +24,7 @@
 		
 
 		{{--Subscription Info --}}
-		<div class="card card-padding card-margin">
+		<div class="card card-padding card-margin" id="subs">
 
 			<div class="section-header">
 				<h2>Your Subscription</h2>
@@ -186,8 +186,8 @@
 
 				<input type="hidden" name="_method" value="DELETE">
 				<button type="submit" class="btn btn-link ">
-					{{$user->subscription('main')->onGracePeriod()}}
-					Cancel Subscription
+					{{$user->subscription('main')->onGracePeriod() ? '' : 'Cancel Subscription'}}
+					
 
 				</button>
 			</form>

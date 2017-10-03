@@ -43,7 +43,7 @@ class accountController extends Controller
 
       	//if a user is cancelled
 
-      	if($user->subscription('main') and $user->subscription('main')->onGracePeroid()){
+      	if($user->subscription('main') and $user->subscription('main')->onGracePeriod()){
 
       			if($user->onPlan($plan)){
 
