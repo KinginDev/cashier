@@ -1,0 +1,28 @@
+.post-single{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+	.img-container{
+		height: 500px;
+	}
+	.card-content{
+		padding: 50px 100px;
+
+	}
+	h1{
+		font-size: 50px;
+
+	}
+	.byeline{
+			font-size: 14px;
+			color: #BBB;
+			margin-bottom: 20px;
+
+			span{
+
+				font-family: 'oswald';
+				 color: #F42E45;
+			}
+		}
+
+}
