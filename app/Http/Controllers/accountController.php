@@ -63,7 +63,7 @@ class accountController extends Controller
       	//change plan
       	$user->subscription('main')->swap($plan);
 
-      		Session::flash('update_sub' , 'You Changed Your Plan");
+      		Session::flash('update_sub' , "You Changed Your Plan");
       }
       
 
